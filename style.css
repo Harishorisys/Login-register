@@ -1,0 +1,68 @@
+body {
+    background-image: url("images/background.jpg");
+    background-size: cover;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    background-color: rgb(255, 255, 255,0.5);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid black;
+    width: 35%;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 10%;
+    font-size: 20px;
+}
+
+input {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    border: transparent;
+    color: blue;
+    
+}
+
+a,
+p {
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.errmsg{
+    color: rgb(173, 31, 31);
+    font-weight: bold;
+    margin-top: 10px;
+    background-color: rgb(230, 127, 127);
+    border-radius: 5px;
+}
+
+.errmesg{
+    color: rgb(173, 31, 31);
+    font-weight: bold;
+    margin-top: 10px;
+    background-color: rgb(230, 127, 127);
+    border-radius: 5px;
+}
+
+.btnlog {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: darkgray;
+    color: rgb(99, 99, 188);
+    font-weight: bold;
+    padding: 8px;
+    border: 1px solid black;
+
+}
+
+.btnlog:hover {
+    background-color: black;
+    color: darkgrey;
+    transition: 0.5s;
+
+}
